@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+  <title></title>
+
+
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+
+  <link href="css/ionic.app.css" rel="stylesheet">
+
+-->
+
+<!-- ionic/angularjs js -->
+
+<script src="lib/ionic/js/ionic.bundle.js">
+</script>
+
+
+<!-- cordova script (this will be a 404 during development) -->
+<script src="cordova.js"></script>
+
+
+<!-- your app's js -->
+<script src="js/app.js"></script>
+<style> ion-content {background-image: url('./img/Planets/UniverseBackground.png');}
+.planet {width: 200px; height: 200px; margin-top:15%;} </style>
+</head>
+
+<body ng-app="starter">
+
+
+  <ion-pane>
+
+    <div class="bar bar-header bar-dark">
+      <h1 class="title">Today I am feeling...</h1>
+    </div>
+
+    <ion-content>
+
+      <div align="center">
+        <a href="Stressed\Stressed.html"><img class="planet" id="stressedplanet" src="./img/Planets/MS.png"></a>
+        <br>
+        <a href="InLove\InLove.html"><img class="planet" id="in Loveplanet" src="./img/Planets/VR.png"></a>
+        <br>
+        <a href="Bored\Bored.html"><img class="planet" id="boredplanet" src="./img/Planets/EB.png"></a>
+        <br>
+        <a href="Angry\Angry.html"><img class="planet" id="angryplanet" src="./img/Planets/MA.png"></a>
+        <br>
+        <a href="Anxious\Anxious.html"><img class="planet" id="anxiousplanet" src="./img/Planets/JA.png"></a>
+        <br>
+        <a href="Happy\happy.html"><img class="planet" id="happyplanet" src="./img/Planets/SH.png"></a>
+        <br>
+        <a href="Depressed\Depressed.html"><img class="planet" id="depressedplanet" src="./img/Planets/UD.png"></a>
+        <br>
+        <a href="Sad\sad.html"><img class="planet" id="sadplanet" src="./img/Planets/NS.png"></a>
+        <br>
+        <a href="MoreInfo\MoreInfo.html"><img class="planet" id="MoreInfoplanet" src="./img/Planets/MI.png"></a>
+        <br>
+      </div>
+    </ion-content>
+  </ion-pane>
+
+</body>
+
+</html>

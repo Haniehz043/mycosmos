@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="starter">
+<head>
+  <title>sad Main</title>
+
+  <meta charset="utf-8">
+  <meta  content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+  <link href="../lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <script src="../lib/ionic/js/ionic.bundle.js">
+  </script>
+  <script src="../js/app.js"></script>
+  <script src="../js/Dpsports.js"></script>
+
+
+
+</head>
+<body >
+  <ion-pane>
+    <div class="bar bar-header bar-light">
+      <a class="button icon-left ion-chevron-left" href="Depressed.html"></a>
+
+    </div>
+
+    <ion-content ng-controller="MainController" ng-init="shuffle(sports)">
+
+          <div ng-repeat="sport in sports| limitTo:5" align='center'>
+
+            <img ng-click="goto(sport.url)" ng-src="{{ sport.imageSrc }}" width="200px" height="250px" />
+
+        </div>
+
+    </ion-content>
+  </ion-pane>
+</body>
+</html>
+
+
+
+
+
+</body>
+</html>

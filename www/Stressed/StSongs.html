@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="starter">
+<head>
+  <title>Anx Main</title>
+
+  <meta charset="utf-8">
+  <meta  content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+  <link href="../lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <script src="../lib/ionic/js/ionic.bundle.js">
+  </script>
+  <script src="../js/app.js"></script>
+  <script src="../js/Stsongs.js"></script>
+
+
+
+</head>
+<body >
+  <ion-pane>
+    <div class="bar bar-header bar-light">
+      <a class="button icon-left ion-chevron-left" href="Stressed.html"></a>
+
+    </div>
+
+    <ion-content ng-controller="MainController" ng-init="shuffle(songs)">
+
+          <div ng-repeat="song in songs| limitTo:5" align='center'>
+
+            <img ng-click="goto(song.url)" ng-src="{{ song.imageSrc }}" width="300px" height="300px" />
+
+        </div>
+
+    </ion-content>
+  </ion-pane>
+</body>
+</html>
