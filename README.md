@@ -10,7 +10,7 @@ An App that helps your mental health by suggesting different activities that imp
 
 These are the instructions on how to view the app:
 
-*[Install Ionic](http://ionicframework.com/getting-started/)
+* [Install Ionic](http://ionicframework.com/getting-started/)
 * Download the code 
 * Go to the Terminal : `cd mycosmos; ionic serve --lab`  
 
