@@ -14,4 +14,9 @@ These are the instructions on how to view the app:
 * Download the code 
 * Go to the Terminal : `cd mycosmos; ionic serve --lab`  
 
+To view the app on mobile phone:
+* Download Ionic View on App Store 
+* Enter the App ID : e5913b03 (Note: Somtimes the App crashes in Ionic view App)
+
+
 
