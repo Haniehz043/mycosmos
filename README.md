@@ -16,7 +16,7 @@ These are the instructions on how to view the app:
 
 To view the app on mobile phone:
 * Download Ionic View on App Store 
-* Enter the App ID : e5913b03 (Note: Somtimes the App crashes in Ionic view App)
+* Enter the App ID : e5913b03 (Note: Sometimes the App crashes in Ionic view App)
 
 
 
